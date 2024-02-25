@@ -20,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:text="comics populaires"
+                android:text="Comics populaires"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@color/white" />
 
@@ -44,14 +44,14 @@
                 android:layout_height="match_parent"
                 android:layout_marginEnd="4dp"
                 android:layout_weight="1"
-                android:src="@drawable/ic_launcher_foreground" />
+                android:src="@drawable/spiderman" />
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="4dp"
                 android:layout_weight="1"
-                android:src="@drawable/ic_launcher_foreground" />
+                android:src="@drawable/hulk" />
         </LinearLayout>
 
     </LinearLayout>

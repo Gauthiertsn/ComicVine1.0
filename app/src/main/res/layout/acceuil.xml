@@ -40,8 +40,8 @@
                     android:layout_marginTop="8dp" />
 
                 <include
-                    android:id="@+id/series_layout"
-                    layout="@layout/series_block"
+                    android:id="@+id/films_layout"
+                    layout="@layout/film_block"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp" />
