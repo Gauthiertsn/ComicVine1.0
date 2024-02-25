@@ -1,5 +1,8 @@
-# ChillTimes
+# ComicVine1.0
 Développer une application Android permettant à un utilisateur de découvrir et chercher des comics, séries et films.
+
+<h1>Résultat</h1>
+<p>Notre projet nous offre actuellement une fonctionnalité d'accueil qui, bien que non requise initialement, avait déjà été entamée. Il aurait donc été regrettable de ne pas l'exploiter. En sélectionnant "Voir plus" sous la section des films, ou l'icône "studio", qui est la centrale, nous accédons à une liste des séries populaires.</p>
 
 <h1>Application Comics Flutter</h1>
 
@@ -9,26 +12,11 @@ Développer une application Android permettant à un utilisateur de découvrir e
 <h2>Fonctionnalités</h2>
 <h3>Pour tous les groupes</h3>
 <ul>
-    <li><strong>Écran d'accueil</strong>: Affiche les dernières actualités, séries, comics et films.</li>
+    <li><strong>Écran d'accueil</strong>: Affiche les dernières actualités, séries</li>
     <li><strong>Liste des séries</strong>: Permet de parcourir une liste de séries.</li>
     <li><strong>Détail d'une série</strong>: Affiche des détails sur une série spécifique, y compris l'histoire, les personnages et les épisodes.</li>
 </ul>
 
-<h3>Exclusives aux groupes de 3</h3>
-<ul>
-    <li><strong>Liste des comics</strong>: Navigation à travers une liste de comics.</li>
-    <li><strong>Détails d'un comics</strong>: Montre des détails sur un comic spécifique, incluant l'histoire, les auteurs et les personnages.</li>
-    <li><strong>Recherche</strong>: Fonctionnalité de recherche sur les comics, films et séries.</li>
-</ul>
-
-<h3>Bonus (non obligatoire)</h3>
-<ul>
-    <li><strong>Liste des films</strong>: Visualisation d'une liste de films.</li>
-    <li><strong>Détails d'un film</strong>: Informations détaillées sur un film spécifique, y compris le synopsis, les personnages et les données de production.</li>
-</ul>
-
-<h2>API</h2>
-<p>Utilise l'API ComicVine de Gamespot pour toutes les données sauf les actualités. Les appels sont limités à 200 par heure.</p>
 
 <h2>Développement</h2>
 <h3>Environnement Requis</h3>
