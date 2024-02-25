@@ -1,0 +1,70 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border_top_left_right"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.6"
+            android:src="@drawable/home"
+            android:scaleType="centerCrop"
+            android:background="#0F1E2B"
+            android:adjustViewBounds="true"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"/>
+
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+        <ImageButton
+            android:layout_width="21dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#0F1E2B"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/serie_icon" />
+
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground"
+                android:gravity="center"/>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
