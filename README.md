@@ -2,7 +2,7 @@
 Développer une application Android permettant à un utilisateur de découvrir et chercher des comics, séries et films.
 
 <h1>Résultat</h1>
-<p>Notre projet nous offre actuellement une fonctionnalité d'accueil qui, bien que non requise initialement, avait déjà été entamée. Il aurait donc été regrettable de ne pas l'exploiter. En sélectionnant "Voir plus" sous la section des films, nous accédons à une liste des séries populaires.</p>
+<p>Notre projet nous offre actuellement une fonctionnalité d'accueil qui, bien que non requise initialement, avait déjà été entamée. Il aurait donc été regrettable de ne pas l'exploiter. En sélectionnant "Voir plus" sous la section des films, ou l'icône "studio", qui est la centrale, nous accédons à une liste des séries populaires.</p>
 
 <h1>Application Comics Flutter</h1>
 
