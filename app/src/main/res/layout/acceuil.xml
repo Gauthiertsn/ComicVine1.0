@@ -2,46 +2,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color">
-
-    <ScrollView
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        tools:context=".MainActivity">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:fillViewport="true">
 
-            <include
-                android:id="@+id/header_layout"
-                layout="@layout/header_layout" />
-
-            <include
-                android:id="@+id/series_layout"
-                layout="@layout/series_block"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp" />
+                android:orientation="vertical">
 
-            <include
-                android:id="@+id/comics_layout"
-                layout="@layout/comics_block"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp" />
+                <include
+                    android:id="@+id/header_layout"
+                    layout="@layout/header_layout" />
 
-            <include
-                android:id="@+id/series_layout"
-                layout="@layout/series_block"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp" />
+                <include
+                    android:id="@+id/series_layout"
+                    layout="@layout/series_block"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp" />
+
+                <include
+                    android:id="@+id/comics_layout"
+                    layout="@layout/comics_block"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp" />
+
+                <include
+                    android:id="@+id/series_layout"
+                    layout="@layout/series_block"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp" />
 
 
-        </LinearLayout>
-    </ScrollView>
-
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
     <include
         android:id="@+id/nav_layout"
         layout="@layout/nav_barre"
